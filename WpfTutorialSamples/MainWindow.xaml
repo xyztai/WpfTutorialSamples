@@ -7,6 +7,7 @@
         xmlns:lv="clr-namespace:WpfTutorialSamples.ListView_control"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -23,6 +24,11 @@
         <lv:ListViewDataBindingSample Grid.Column="2" />
         <lv:ListViewItemTemplateSample Grid.Row="1" Grid.Column="0" />
         <lv:ListViewGridViewSample Grid.Row="1" Grid.Column="1" />
+        <lv:ListViewGridViewCellTemplateSample Grid.Row="1" Grid.Column="2" />
+        <lv:ListViewGridViewSample_left Grid.Row="2" Grid.Column="0" />
+        <lv:ListViewGridViewSample_left_1 Grid.Row="2" Grid.Column="1" />
+
         
+
     </Grid>
 </Window>

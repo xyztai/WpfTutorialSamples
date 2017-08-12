@@ -67,7 +67,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListView_control\ListViewGridViewCellTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListView_control\ListViewGridViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGridViewSample_left.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGridViewSample_left_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,8 +104,17 @@
     <Compile Include="ListView_control\ListViewDataBindingSample.xaml.cs">
       <DependentUpon>ListViewDataBindingSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListView_control\ListViewGridViewCellTemplateSample.xaml.cs">
+      <DependentUpon>ListViewGridViewCellTemplateSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListView_control\ListViewGridViewSample.xaml.cs">
       <DependentUpon>ListViewGridViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGridViewSample_left.xaml.cs">
+      <DependentUpon>ListViewGridViewSample_left.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGridViewSample_left_1.xaml.cs">
+      <DependentUpon>ListViewGridViewSample_left_1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListView_control\ListViewItemTemplateSample.xaml.cs">
       <DependentUpon>ListViewItemTemplateSample.xaml</DependentUpon>
