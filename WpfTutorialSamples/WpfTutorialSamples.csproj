@@ -55,6 +55,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ListView_control\ListViewBasicSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewBasicSample_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewGridViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewItemTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +82,21 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListView_control\ListViewBasicSample.xaml.cs">
+      <DependentUpon>ListViewBasicSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewBasicSample_1.xaml.cs">
+      <DependentUpon>ListViewBasicSample_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewDataBindingSample.xaml.cs">
+      <DependentUpon>ListViewDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewGridViewSample.xaml.cs">
+      <DependentUpon>ListViewGridViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewItemTemplateSample.xaml.cs">
+      <DependentUpon>ListViewItemTemplateSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -94,6 +129,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\blue.png" />
+    <Resource Include="Images\green.png" />
+    <Resource Include="Images\red.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
