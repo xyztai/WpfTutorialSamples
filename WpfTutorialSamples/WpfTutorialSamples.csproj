@@ -55,11 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ListView_control\All_in_one.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\FilteringSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListView_control\ListViewBasicSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ListView_control\ListViewBasicSample_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewCollapseExpandGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewColumnSortingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -83,7 +99,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListView_control\ListViewGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListView_control\ListViewItemTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListView_control\ListViewSortingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,11 +119,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ListView_control\All_in_one.xaml.cs">
+      <DependentUpon>All_in_one.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\FilteringSample.xaml.cs">
+      <DependentUpon>FilteringSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListView_control\ListViewBasicSample.xaml.cs">
       <DependentUpon>ListViewBasicSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListView_control\ListViewBasicSample_1.xaml.cs">
       <DependentUpon>ListViewBasicSample_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewCollapseExpandGroupSample.xaml.cs">
+      <DependentUpon>ListViewCollapseExpandGroupSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\ListViewColumnSortingSample.xaml.cs">
+      <DependentUpon>ListViewColumnSortingSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListView_control\ListViewDataBindingSample.xaml.cs">
       <DependentUpon>ListViewDataBindingSample.xaml</DependentUpon>
@@ -116,9 +152,16 @@
     <Compile Include="ListView_control\ListViewGridViewSample_left_1.xaml.cs">
       <DependentUpon>ListViewGridViewSample_left_1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListView_control\ListViewGroupSample.xaml.cs">
+      <DependentUpon>ListViewGroupSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListView_control\ListViewItemTemplateSample.xaml.cs">
       <DependentUpon>ListViewItemTemplateSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListView_control\ListViewSortingSample.xaml.cs">
+      <DependentUpon>ListViewSortingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListView_control\Common.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

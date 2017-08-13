@@ -9,26 +9,6 @@
         Title="MainWindow" Height="350" Width="525">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <lv:ListViewBasicSample />
-        <lv:ListViewBasicSample_1 Grid.Column="1" />
-        <lv:ListViewDataBindingSample Grid.Column="2" />
-        <lv:ListViewItemTemplateSample Grid.Row="1" Grid.Column="0" />
-        <lv:ListViewGridViewSample Grid.Row="1" Grid.Column="1" />
-        <lv:ListViewGridViewCellTemplateSample Grid.Row="1" Grid.Column="2" />
-        <lv:ListViewGridViewSample_left Grid.Row="2" Grid.Column="0" />
-        <lv:ListViewGridViewSample_left_1 Grid.Row="2" Grid.Column="1" />
-
-        
-
+        <lv:All_in_one />
     </Grid>
 </Window>

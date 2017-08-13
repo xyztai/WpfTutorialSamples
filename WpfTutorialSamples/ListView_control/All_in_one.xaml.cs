@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace WpfTutorialSamples.ListView_control
 {
     /// <summary>
-    /// ListViewDataBindingSample.xaml 的交互逻辑
+    /// All_in_one.xaml 的交互逻辑
     /// </summary>
-    public partial class ListViewDataBindingSample : UserControl
+    public partial class All_in_one : UserControl
     {
-        public ListViewDataBindingSample()
+        public All_in_one()
         {
             InitializeComponent();
-            List<User> items = new List<User>();
-            items.Add(new User() { Name = "John Doe", Age = 42 });
-            items.Add(new User() { Name = "Jane Doe", Age = 39 });
-            items.Add(new User() { Name = "Sammy Doe", Age = 13 });
-            lvDataBinding.ItemsSource = items;
         }
-    }  
+    }
 }

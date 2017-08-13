@@ -39,5 +39,4 @@ namespace WpfTutorialSamples.ListView_control
 
         public string Mail { get; set; }
     }
-
 }
