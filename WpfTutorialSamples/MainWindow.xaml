@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTutorialSamples"
         xmlns:lv="clr-namespace:WpfTutorialSamples.ListView_control"
+        xmlns:tv="clr-namespace:WpfTutorialSamples.TreeView_control"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
 
     <Grid>
-        <lv:All_in_one />
+        <tv:All_in_one />
     </Grid>
 </Window>
