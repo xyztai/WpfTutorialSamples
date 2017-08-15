@@ -55,19 +55,64 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DataGrid_control\All_in_one.xaml.cs">
+      <DependentUpon>All_in_one.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\Common.cs" />
+    <Compile Include="DataGrid_control\DataGridColumnsSample.xaml.cs">
+      <DependentUpon>DataGridColumnsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\DataGridDetailsSample.xaml.cs">
+      <DependentUpon>DataGridDetailsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\DataGridDetailsSample_1.xaml.cs">
+      <DependentUpon>DataGridDetailsSample_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid_control\SimpleDataGridSample.xaml.cs">
+      <DependentUpon>SimpleDataGridSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TreeView_control\All_in_one.xaml.cs">
       <DependentUpon>All_in_one.xaml</DependentUpon>
     </Compile>
     <Compile Include="TreeView_control\Common.cs" />
+    <Compile Include="TreeView_control\LazyLoadingSample.xaml.cs">
+      <DependentUpon>LazyLoadingSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TreeView_control\TreeViewCustomItemsSample.xaml.cs">
       <DependentUpon>TreeViewCustomItemsSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="TreeView_control\TreeViewDataBindingSample.xaml.cs">
       <DependentUpon>TreeViewDataBindingSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TreeView_control\TreeViewMultipleTemplatesSample.xaml.cs">
+      <DependentUpon>TreeViewMultipleTemplatesSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TreeView_control\TreeViewSample.xaml.cs">
       <DependentUpon>TreeViewSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TreeView_control\TreeViewSelectionExpansionSample.xaml.cs">
+      <DependentUpon>TreeViewSelectionExpansionSample.xaml</DependentUpon>
+    </Compile>
+    <Page Include="DataGrid_control\All_in_one.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\DataGridColumnsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\DataGridDetailsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\DataGridDetailsSample_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGrid_control\SimpleDataGridSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListView_control\All_in_one.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -183,6 +228,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TreeView_control\LazyLoadingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TreeView_control\TreeViewCustomItemsSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -191,7 +240,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TreeView_control\TreeViewMultipleTemplatesSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TreeView_control\TreeViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeView_control\TreeViewSelectionExpansionSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

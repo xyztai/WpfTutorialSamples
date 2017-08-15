@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="WpfTutorialSamples.TreeView_control.All_in_one"
+﻿<UserControl x:Class="WpfTutorialSamples.DataGrid_control.All_in_one"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfTutorialSamples.TreeView_control"
+             xmlns:local="clr-namespace:WpfTutorialSamples.DataGrid_control"
              mc:Ignorable="d" 
-             d:DesignHeight="1200" d:DesignWidth="800">
+             d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -19,11 +19,9 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <local:TreeViewSample />
-        <local:TreeViewCustomItemsSample Grid.Column="1" />
-        <local:TreeViewDataBindingSample Grid.Column="2" />
-        <local:TreeViewMultipleTemplatesSample Grid.Row="1" Grid.Column="0" />
-        <local:TreeViewSelectionExpansionSample Grid.Row="1" Grid.Column="1" />
-        <local:LazyLoadingSample Grid.Row="1" Grid.Column="2" />
+        <local:SimpleDataGridSample />
+        <local:DataGridColumnsSample Grid.Column="1" />
+        <local:DataGridDetailsSample Grid.Column="2" />
+        <local:DataGridDetailsSample_1 Grid.Row="1" Grid.Column="0" />
     </Grid>
 </UserControl>
