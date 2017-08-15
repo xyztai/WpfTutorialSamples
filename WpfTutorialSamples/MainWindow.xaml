@@ -7,10 +7,11 @@
         xmlns:lv="clr-namespace:WpfTutorialSamples.ListView_control"
         xmlns:tv="clr-namespace:WpfTutorialSamples.TreeView_control"
         xmlns:dv="clr-namespace:WpfTutorialSamples.DataGrid_control"
+        xmlns:ss="clr-namespace:WpfTutorialSamples.Styles"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
 
     <Grid>
-        <dv:All_in_one />
+        <ss:All_in_one />
     </Grid>
 </Window>

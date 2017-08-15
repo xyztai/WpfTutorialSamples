@@ -71,6 +71,31 @@
     <Compile Include="DataGrid_control\SimpleDataGridSample.xaml.cs">
       <DependentUpon>SimpleDataGridSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Styles\All_in_one.xaml.cs">
+      <DependentUpon>All_in_one.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\Common.cs" />
+    <Compile Include="Styles\ControlSpecificStyleSample.xaml.cs">
+      <DependentUpon>ControlSpecificStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\ExplicitStyleSample.xaml.cs">
+      <DependentUpon>ExplicitStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\SimpleStyleSample.xaml.cs">
+      <DependentUpon>SimpleStyleSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleDataTriggerSample.xaml.cs">
+      <DependentUpon>StyleDataTriggerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleEventTriggerSample.xaml.cs">
+      <DependentUpon>StyleEventTriggerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\StyleTriggersSample.xaml.cs">
+      <DependentUpon>StyleTriggersSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Styles\UserControlWideStyleSample.xaml.cs">
+      <DependentUpon>UserControlWideStyleSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TreeView_control\All_in_one.xaml.cs">
       <DependentUpon>All_in_one.xaml</DependentUpon>
     </Compile>
@@ -224,6 +249,38 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Styles\All_in_one.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ControlSpecificStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ExplicitStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\SimpleStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleDataTriggerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleEventTriggerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StyleTriggersSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\UserControlWideStyleSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TreeView_control\All_in_one.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
