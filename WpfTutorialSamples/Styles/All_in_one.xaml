@@ -26,7 +26,8 @@
         <local:StyleTriggersSample Grid.Row="1" Grid.Column="1" />
         <local:StyleDataTriggerSample Grid.Row="1" Grid.Column="2" />
         <local:StyleEventTriggerSample Grid.Row="2" Grid.Column="0" />
-
-        
+        <local:StyleMultiTriggerSample Grid.Row="2" Grid.Column="1" />
+        <local:StyleMultiDataTriggerSample Grid.Row="2" Grid.Column="2" />
+        <local:StyleTriggerEnterExitActions Grid.Row="3" Grid.Column="0" />        
     </Grid>
 </UserControl>

@@ -8,10 +8,10 @@
         xmlns:tv="clr-namespace:WpfTutorialSamples.TreeView_control"
         xmlns:dv="clr-namespace:WpfTutorialSamples.DataGrid_control"
         xmlns:ss="clr-namespace:WpfTutorialSamples.Styles"
+        xmlns:misc="clr-namespace:WpfTutorialSamples.Misc"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-
+        Title="MainWindow" >
     <Grid>
-        <ss:All_in_one />
+        <misc:All_in_one />
     </Grid>
 </Window>
