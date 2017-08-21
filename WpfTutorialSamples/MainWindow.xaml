@@ -8,10 +8,12 @@
         xmlns:tv="clr-namespace:WpfTutorialSamples.TreeView_control"
         xmlns:dv="clr-namespace:WpfTutorialSamples.DataGrid_control"
         xmlns:ss="clr-namespace:WpfTutorialSamples.Styles"
+        xmlns:av="clr-namespace:WpfTutorialSamples.Audio_and_Video"        
         xmlns:misc="clr-namespace:WpfTutorialSamples.Misc"
+        
         mc:Ignorable="d"
         Title="MainWindow" >
     <Grid>
-        <misc:All_in_one />
+        <av:All_in_one />
     </Grid>
 </Window>

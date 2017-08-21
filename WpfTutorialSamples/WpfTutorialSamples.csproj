@@ -55,6 +55,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Audio_and_Video\All_in_one.xaml.cs">
+      <DependentUpon>All_in_one.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\AudioVideoPlayerCompleteSample.xaml.cs">
+      <DependentUpon>AudioVideoPlayerCompleteSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerAudioControlSample.xaml.cs">
+      <DependentUpon>MediaPlayerAudioControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerAudioSample.xaml.cs">
+      <DependentUpon>MediaPlayerAudioSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoControlSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\MediaPlayerVideoSizeSample.xaml.cs">
+      <DependentUpon>MediaPlayerVideoSizeSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio_and_Video\SystemSoundsSample.xaml.cs">
+      <DependentUpon>SystemSoundsSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DataGrid_control\All_in_one.xaml.cs">
       <DependentUpon>All_in_one.xaml</DependentUpon>
     </Compile>
@@ -73,6 +97,12 @@
     </Compile>
     <Compile Include="Misc\All_in_one.xaml.cs">
       <DependentUpon>All_in_one.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\BackgroundWorkerCancellationSample.xaml.cs">
+      <DependentUpon>BackgroundWorkerCancellationSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\BackgroundWorkerSample.xaml.cs">
+      <DependentUpon>BackgroundWorkerSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Misc\DispatcherTimerSample.xaml.cs">
       <DependentUpon>DispatcherTimerSample.xaml</DependentUpon>
@@ -136,6 +166,38 @@
     <Compile Include="TreeView_control\TreeViewSelectionExpansionSample.xaml.cs">
       <DependentUpon>TreeViewSelectionExpansionSample.xaml</DependentUpon>
     </Compile>
+    <Page Include="Audio_and_Video\All_in_one.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\AudioVideoPlayerCompleteSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerAudioControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerAudioSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\MediaPlayerVideoSizeSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Audio_and_Video\SystemSoundsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DataGrid_control\All_in_one.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -268,6 +330,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Misc\All_in_one.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc\BackgroundWorkerCancellationSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Misc\BackgroundWorkerSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
